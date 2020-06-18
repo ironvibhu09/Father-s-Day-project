@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<body background="Background.png">
+
+<img src = "Dad.png" alt = "Image of Dad" width="420" height="450" ><rp>Happy</rp>
+<img src = "Boy.png" alt = "Image of Child" width="120" height="200" style="float:right ; margin:100px " >
+
+<div class="image"><div>
+
+<div id="myDiv1">
+<button onclick="Next2()" style="float:right;color:red;border-radius:10px;background-color:yellow"><b>Start<b></button></div>
+<br>
+<div id="myDiv">
+<button onclick="Next()" style="color:red;border-radius:10px;background-color:yellow">Next 1</button></div>      
+<br>
+<div id="myDiv3">
+<button onclick="Next4()" style="float:right;color:red;border-radius:10px;background-color:yellow">Next 2</button>
+</div>
+<br>
+<div id="myDiv2">
+<button onclick="Next3()" style="color:red;border-radius:10px;background-color:yellow">Next 3</button>
+</div>
+<br>
+<div id="myDiv4">
+<button onclick="Next5()" style="float:right;color:red;border-radius:10px;background-color:yellow">Next 4</button> 
+</div>
+<br>
+<div id="myDiv5">
+  <button onclick="Next6()" style="color:red;border-radius:10px;background-color:yellow">Next 5</button>
+</div>
+
+
+<script>
+function Next() 
+{
+  alert("DAD : I am doing Great, how are you ?");
+ 
+  var x = document.getElementById("myDiv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+         }
+}
+</script>
+
+<script>
+function Next2() 
+{
+  alert(" SON : Hello Dad how are you ?");
+  var x = document.getElementById("myDiv1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+         }
+}
+</script>
+
+<script>
+function Next3() 
+{
+  alert("DAD : Why, is there something special today ?");
+ 
+  var x = document.getElementById("myDiv2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+         }
+}
+</script>
+
+<script>
+function Next4() 
+{
+  alert("SON : I am fine Dad, Do you plan to do anything today ?");
+ 
+  var x = document.getElementById("myDiv3");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+         }
+}
+</script>
+
+<script>
+function Next5() 
+{
+  alert("SON : Yes Dad, it is Father's Day today. Happy Father's Day Dad !!!");
+  var x = document.getElementById("myDiv4");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+         }
+}
+</script>
+
+<script>
+function Next6() 
+{
+  alert("DAD : Thanks Son,I totally forgot that it is Father's Day today ?");
+  var x = document.getElementById("myDiv5");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+         }
+}
+</script>
+
+</body>
+</html>
